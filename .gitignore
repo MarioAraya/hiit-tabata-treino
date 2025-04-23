@@ -1,0 +1,20 @@
+#Ignore VSCode default files
+.vscode
+
+#Ignore node_modules
+node_modules
+
+#Ignore local development environment
+.env
+
+#Ignore cache files
+.cache-test-results
+
+#Ignore OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
