@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HIIT Tabata Timer App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://www.youtube.com/iframe_api"></script>
+</head>
+<body>
+    <div class="tabs">
+        <button class="tablink" onclick="openTab(event, 'Tab1')">HIIT 40/20 x 8</button>
+        <button class="tablink" onclick="openTab(event, 'Tab2')">Tabata 20/10 x 8</button>
+    </div>
+
+    <div id="Tab1" class="tabcontent">
+        <div class="timer-container" id="timer1">
+            <div id="timer1-display" class="timer-display">🕒 12m 30s</div>
+            <div id="youtube1" class="youtube-video"></div>
+        </div>
+    </div>
+
+    <div id="Tab2" class="tabcontent">
+        <div class="timer-container" id="timer2">
+            <div id="timer2-display" class="timer-display">🕒 4m 30s</div>
+            <div id="youtube2" class="youtube-video"></div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

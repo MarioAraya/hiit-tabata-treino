@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+
+.tablink {
+    background-color: #4CAF50; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin bordes */
+    padding: 15px 30px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Mostrar como bloque en línea */
+    font-size: 16px; /* Tamaño de fuente */
+    margin: 10px; /* Espaciado externo */
+    cursor: pointer; /* Cambiar el cursor al pasar por encima */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Animación suave */
+}
+
+.tablink:hover {
+    background-color: #45a049; /* Color de fondo al pasar el mouse */
+}
+
+.tabcontent {
+    display: none;
+    padding: 20px;
+}
+
+.timer-container {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+}
+
+.timer-display {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.youtube-video {
+    width: 300px;
+    height: 169px;
+    display: none;
+}
+
+.active {
+    display: block;
+}
